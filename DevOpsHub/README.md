@@ -1,10 +1,8 @@
-# DevOps Vault
+### DevOps resources
 
 > A curated list of platforms, tools, practices and resources to create, improve DevOps culture and SRE Team in the organization.
 
-DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
-
-## Contents
+### Contents
 
 - [Cloud Platforms](#cloud-platforms)
 - [Open Source Cloud Platforms](#open-source-cloud-platforms)
@@ -36,7 +34,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 ---
 
-## Cloud Platforms
+### Cloud Platforms
 
 *Public and Private Cloud Platforms.*
 
@@ -54,7 +52,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Linode](https://www.linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
 - [Kinsta](https://kinsta.com/application-hosting/) - Create and deploy web applications and databases in minutes.
 
-## Open Source Cloud Platforms
+### Open Source Cloud Platforms
 
 *Private, Public and Hybrid open source Cloud Platforms.*
 
@@ -66,7 +64,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Apache Mesos](http://mesos.apache.org/) - Program against your datacenter like it’s a single pool of resources.
 - [Localstack](https://github.com/localstack/localstack) - Fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.
 
-## Operating Systems
+### Operating Systems
 
 *Operating Systems - Server Platform.*
 
@@ -77,7 +75,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Atomic](http://www.projectatomic.io/) - Use immutable infrastructure to deploy and scale your containerized applications.
 - [Photon](https://github.com/vmware/photon) - Linux container host optimized for cloud-native applications, cloud platforms, and VMware infrastructure.
 
-## Distributed Filesystems
+### Distributed Filesystems
 
 *Network distributed filesystems.*
 
@@ -87,7 +85,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [XtreemFS](http://www.xtreemfs.org/) - Fault-tolerant distributed file system for all storage needs.
 - [min.io](https://min.io/) - High performance, distributed object storage system.
 
-## Applications Platforms
+### Applications Platforms
 
 *Applications management platforms, Containers platform and Containers management.*
 
@@ -108,7 +106,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
 - [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
 
-## Container Image Registry
+### Container Image Registry
 
 *Container Image registry.*
 
@@ -117,7 +115,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Harbor](https://goharbor.io/) - An open source trusted cloud native registry project that stores, signs, and scans content.
 - [GitHub Container Registry](https://github.blog/2020-09-01-introducing-github-container-registry/) - Container registry free for public images.
 
-## Automation & Orchestration
+### Automation & Orchestration
 
 *Tools for automation, orchestration, deployment, provisioning and configuration management.*
 
@@ -151,7 +149,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
 - [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
 
-## Continuous Integration & Delivery
+### Continuous Integration & Delivery
 
 *Continuous Integration, Continuous Delivery and Continuous Delivery. GitOps.*
 
@@ -187,7 +185,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
 
-## Source Code Management
+### Source Code Management
 
 *Source Code management, Git-repository manager, Version Control. Some of them are included in Code review section.*
 
@@ -201,7 +199,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [RhodeCode](https://rhodecode.com/) - Centralized control for distributed repositories. Mercurial, Git, and Subversion under a single roof.
 - [Radicle](https://radicle.xyz/) - Radicle is a sovereign peer-to-peer network for code collaboration, built on top of Git.
 
-## Web Servers
+### Web Servers
 
 *Web servers and reverse proxy.*
 
@@ -212,7 +210,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Lighttpd](http://www.lighttpd.net/) - Optimized for speed-critical environments while remaining standards-compliant, secure and flexible.
 - [Uwsgi](https://github.com/unbit/uwsgi/) - Application server container.
 
-## SSL
+### SSL
 
 *Tools for automating the management of SSL certificates.*
 
@@ -220,7 +218,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Let’s Encrypt](https://letsencrypt.org/) - Free, automated, and open Certificate Authority.
 - [Cert Manager](https://github.com/jetstack/cert-manager) - K8S add-on to automate the management and issuance of TLS certificates from various issuing sources.
 
-## Databases
+### Databases
 
 *Relational (SQL) and non-relational (NoSQL) databases.*
 
@@ -244,7 +242,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
     - [RocksDB](https://rocksdb.org/) - A library that provides an embeddable, persistent key-value store for fast storage.
     - [Etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system.
 
-## Observability & Monitoring
+### Observability & Monitoring
 
 *Observability, Monitoring, Metrics/Metrics collection and Alerting tools.*
 
@@ -294,7 +292,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
 
-## Service Discovery & Service Mesh
+### Service Discovery & Service Mesh
 
 *Service Discovery, Service Mesh and Failure detection tools.*
 
@@ -307,7 +305,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Kong](https://konghq.com/) - Deliver performance needed for microservices, service mesh, and cloud native deployments.
 - [Linkerd](https://github.com/linkerd/linkerd2) - Service mesh for Kubernetes and beyond.
 
-## Chaos Engineering
+### Chaos Engineering
 
 *The discipline of experimenting on a distributed system in order to build confidence in the system's capability to withstand turbulent conditions in production.*
 
@@ -318,7 +316,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh) - A Chaos Engineering Platform for Kubernetes.
 - [Litmus](https://github.com/litmuschaos/litmus) - Litmus enables teams to identify weaknesses in infrastructures.
 
-## API Gateway
+### API Gateway
 
 *API Gateway, Service Proxy and Service Management tools.*
 
@@ -331,14 +329,14 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Envoy](https://www.envoyproxy.io/) - Cloud-native high-performance edge/middle/service proxy.
 - [Traefik](https://traefik.io/) - Reverse proxy and load balancer for HTTP and TCP-based applications.
 
-## Code review
+### Code review
 
 *Code review. A few of the Source Code Management tools have built-in code review features.*
 
 - [Gerrit](https://www.gerritcodereview.com/) - Web-based team code collaboration tool.
 - [Review Board](https://www.reviewboard.org/) - Web-based collaborative code review tool.
 
-## Distributed messaging
+### Distributed messaging
 
 *Distributed messaging platforms and Queues software.*
 
@@ -354,7 +352,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Dkron](https://github.com/distribworks/dkron) - Distributed, fault tolerant job scheduling system.
 - [KubeMQ](https://kubemq.io/) - Kubernetes-native messaging platform.
 
-## Programming Languages
+### Programming Languages
 
 *Programming languages.*
 
@@ -362,7 +360,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Ruby](https://www.ruby-lang.org/) - A dynamic, open source programming language with a focus on simplicity and productivity.
 - [Go](https://golang.org/) - An open source programming language that makes it easy to build simple, reliable, and efficient software.
 
-## Chat and ChatOps
+### Chat and ChatOps
 
 *Chat and ChatOps.*
 
@@ -374,7 +372,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [CloudBot](https://github.com/CloudBotIRC/CloudBot) - Simple, fast, expandable, open-source Python IRC Bot.
   - [Hubot](https://hubot.github.com/) - A customizable life embetterment robot.
 
-## Secret Management
+### Secret Management
 
 *Security as code, sensitive credentials and secrets need to be managed, security, maintained and rotated using automation.*
 
@@ -386,7 +384,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure.
 - [Lade](https://github.com/zifeo/lade) - Automatically load secrets from your preferred vault as environment variables.
 
-## Sharing
+### Sharing
 
 *A collection of tools to help with sharing knowledge and telling the story.*
 
@@ -395,7 +393,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Docsify](https://github.com/docsifyjs/docsify/) - A magical documentation site generator.
 - [MkDocs](https://github.com/mkdocs/mkdocs/) - Project documentation with Markdown.
 
-## VPN
+### VPN
 
 *VPN, routing and firewall.*
 
@@ -409,8 +407,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [SoftEther](https://www.softether.org/) - An Open-Source Free Cross-platform Multi-protocol VPN Program.
 as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [Firezone](https://www.firezone.dev/) - Self-hosted VPN server using WireGuard. Supports MFA, SSO, and has easy deployment options.
-
-## Resources
 
 ### Books
 
@@ -440,6 +436,4 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 
 Basic understanding and what you should know to become a *DevOps* Engineer, check the roadmap [here](https://roadmap.sh/devops).
 
-## Contributing
 
-Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/main/docs/contribution.md).
